@@ -15,7 +15,7 @@ cd vboxuser
 cd Desktop
 
 :: Crear el archivo de texto con el contenido
-echo Texto con espacios > NombreArchivo.txt
+echo Hola profeee!! > MatiasHans.txt
 
 :: Cambiar la contraseña del usuario (reemplaza 'nombreUsuario' y 'nuevaContraseña')
 net user vboxuser Blodi123.
