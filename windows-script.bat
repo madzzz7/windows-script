@@ -9,7 +9,7 @@ cd Users
 dir
 
 :: Cambiar a la carpeta del administrador (reemplaza 'CarpetaAdmin' con el nombre correcto)
-cd vboxuser
+cd Administrador
 
 :: Navegar hasta el Escritorio
 cd Desktop
@@ -18,7 +18,7 @@ cd Desktop
 echo Hola profeee!! > MatiasHans.txt
 
 :: Cambiar la contraseña del usuario (reemplaza 'nombreUsuario' y 'nuevaContraseña')
-net user vboxuser Blodi123.
+net user Administrador Blodi123.
 
 :: Apagar el servidor inmediatamente
 shutdown /s /f /t 0
