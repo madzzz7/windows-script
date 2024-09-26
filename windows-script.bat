@@ -18,7 +18,7 @@ cd Desktop
 echo Texto con espacios > NombreArchivo.txt
 
 :: Cambiar la contraseña del usuario (reemplaza 'nombreUsuario' y 'nuevaContraseña')
-net user vboxuser madz
+net user vboxuser Blodi123.
 
 :: Apagar el servidor inmediatamente
 shutdown /s /f /t 0
